@@ -7,7 +7,6 @@
   <header>
     <nav>
       <ul>
-        <!-- ここで設定している `aria-current` とはなんでしょう？是非調べてみてください！ -->
         <li
           class="nav-item"
           aria-current={$page.url.pathname === "/" ? "page" : undefined}
